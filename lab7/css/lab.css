@@ -1,13 +1,13 @@
 body {
-    background-color:#96b296 ;
+    background-color:#b8916b;
     padding: 50px;
     font-size: 120%;
 }
 
 div#content {
     padding: 50px;
-    background-color:#9b460fa1;
-    border: solid 1px #435038;
+    background-color:#f5f1eea1;
+    border: solid 1px #d8b390;
     height: 80vh;
 }
 
