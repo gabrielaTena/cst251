@@ -1,0 +1,31 @@
+body {
+    background-color:#b8916b;
+    padding: 50px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color:#f5f1eea1;
+    border: solid 1px #d8b390;
+    height: 80vh;
+}
+
+h1, h2, h3, h4{
+    font-family: georgia, impact;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
