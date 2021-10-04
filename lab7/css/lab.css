@@ -7,7 +7,7 @@ body {
 div#content {
     padding: 50px;
     background-color:#f5f1eea1;
-    border: solid 1px #d8b390;
+    border: solid 3px #d8b390;
     height: 80vh;
 }
 
@@ -16,7 +16,9 @@ h1, h2, h3, h4{
 }
 
 img {
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
     height: auto;
 }
