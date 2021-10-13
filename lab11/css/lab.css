@@ -1,0 +1,50 @@
+body{
+    background-color: #b9bd7d;
+    font-family: sans-serif;
+
+}
+
+#content{
+    display: inline-block;
+    width: 80%;
+    margin:20px;
+    padding: 10px;
+    border: dashed #6c855d;
+    background: #e5bffd;
+
+}
+.major-section{
+    display: inline-block;
+    width: 60px;
+    margin:20px;
+    padding: 10px;
+    border: dashed pink;
+    background: red;
+
+}
+
+img{
+    float:
+    width= 400;
+    height= auto;
+}
+
+#sidebar{
+    float: inherit;
+    margin:20px;
+    width: 10%;
+    min-width: 300px;
+    border: solid 3px #6c855d;
+    background-color: #e5bffd;
+
+
+}
+
+nav {
+    position:sticky;
+    top: 0;
+    background-color:#cbd350;
+    border:dashed 10px #6c855d;
+    color:#6c855d;
+
+}
