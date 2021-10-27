@@ -1,0 +1,62 @@
+html, body{
+  background-color:#f9f8db;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+  background-image: linear-gradient(#ffffff, #d9b9fd, #6f547c);
+  background-size: cover;
+}
+
+#content{
+  display: inline-block;
+  width: 60%;
+  margin: 5%;
+  padding: 5%;
+  border: 10px solid #6d8166;
+  background-color: #c2e9ce;
+  border-radius: 25px 0 25px 0;
+
+}
+
+body{
+  font-family:cursive;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  top:30%;
+  transform: translate(30%);
+  text-shadow: -4px 0 #3aaab794, 0 1px #ff5722, 1px 0 #ffe500, 0 -1px #ffe500;
+}
+
+h2{
+  font-size: 30px;
+  color: #c303c3;
+}
+
+nav{
+  position:sticky;
+  top:0;
+  background-color: #c2e9ce;
+  border: 10px solid #6d8166;
+  border-radius: 25px 0 25px 0;
+  box-shadow: 30px 20px 5px #f69eff;
+}
+img{
+  width: 200px;
+  margin: 10px;
+  float: right;
+  filter: grayscale(50%) blur(2px);
+  object-fit: contain;
+  border: solid 1px black;
+  transform: translate(40px, 80px);
+}
+
+img:hover{
+  filter: blur(0);
+}
+nav a{
+  color: #c303c3;
+
+}
