@@ -1,0 +1,114 @@
+html, body{
+  background-color:#f9f8db;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+  background-image: linear-gradient(#ffeb3b, #d9b9fd, #6f547c);
+  background-size: cover;
+}
+
+#content{
+  display: inline-block;
+  width: 60%;
+  margin: 5%;
+  padding: 5%;
+  border: 10px solid #6d8166;
+  border-radius: 25px 0 25px 0;
+  animation-name: content;
+  animation-duration: 30s;
+}
+
+@keyframes content {
+  from {background-color: #f3bcec;}
+  to {background-color: #fcff3f;}
+
+}
+
+body{
+  font-family:cursive;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  top:30%;
+  transform: translate(30%);
+  text-shadow: -4px 0 #000000, 0 1px #dd8acf, 1px 0 #ff059e, 0 -1px #2449ff;
+  color:#009688;
+  transition: width 2s;
+}
+
+
+}
+
+h1:hover{
+  width:500px;
+}
+
+
+h2{
+  font-size: 30px;
+  color: #c303c3;
+}
+
+div#subject{
+  background-image: url("../img/flowers.jpg");
+
+}
+
+div#challenges{
+  background-image: url("../img/flowers.jpg");
+
+}
+
+div#results{
+  background-image: url("../img/flowers.jpg");
+
+}
+ div#column{
+   background-image: url("../img/flowers.jpg");
+ }
+
+nav{
+  position:sticky;
+  top:0;
+  background-color: #6cefe3;
+  border: 10px solid #6d8166;
+  border-radius: 25px 0 25px 0;
+  box-shadow: 30px 20px 5px #f69eff;
+  animation-name: title;
+  background-color: #6cefe2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0% {background-color: #6cefe2;}
+  25% {background-color: #abd778;}
+  50% {background-color: #ebeb59;}
+  100% {background-color: #ebafef;}
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  object-fit: contain;
+  border: solid 1px black;
+  transform: translate(100%);
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+
+}
+nav a{
+  color: #c303c3;
+}
+
+.newspaper{
+  column-count:3;
+}
