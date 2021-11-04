@@ -1,0 +1,24 @@
+html, body{
+  background-color: white;
+
+}
+
+div#main{
+  border: solid black;
+}
+
+
+aside{
+  border:solid black;
+  float: right;
+  height:100px;
+}
+
+nav{
+  border: solid black;
+  float: right;
+}
+
+header{
+  border: solid black;
+}

@@ -1,0 +1,27 @@
+html, body{
+  background-color: white;
+
+}
+
+div#main{
+  border: solid black;
+  height: 500px;
+}
+
+
+aside{
+  border:solid black;
+  float: right;
+  height: 200px;
+}
+
+nav{
+  border: solid black;
+  float: right;
+  width: 25%;
+  height: 100px;
+}
+
+header{
+  border: solid black;
+}

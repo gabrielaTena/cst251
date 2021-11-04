@@ -1,0 +1,39 @@
+html, body{
+  background-color: white;
+
+}
+
+div#main{
+  border: solid black;
+  height: fit-content;
+}
+
+
+aside{
+  border:solid black;
+  float: right;
+  height: 200px;
+}
+
+nav{
+  border: solid black;
+  float: right;
+  width: 25%;
+  height: 50px;
+}
+
+header{
+  border: solid black;
+}
+
+.flex-container{
+  display: flex;
+  background-color: pink;
+  flex-direction: column;
+}
+.flex-container>div{
+  background-color: white;
+  width: 200px;
+  margin: 20px;
+  border: solid black;
+}
