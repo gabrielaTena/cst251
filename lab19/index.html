@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>Lab 19 - CSS Frameworks</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="link-to-a-library.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -16,13 +17,13 @@
 	}
 	</style>
 </head>
-<nav>
-	<ul>
-	<li>
-		<a href="https://gabrielatena.github.io/cst251/">Home</a>
+<nav class="navbar navbar-expand-sm bg-light">
+	<ul class="navbar-nav">
+	<li class="nav-item">
+		<a class="nav-link" href="https://gabrielatena.github.io/cst251/">Home</a>
 	</li>
-	<li>
-		<a href="css/lab.css">CSS code for this page</a>
+	<li class="nav-item">
+		<a class="nav-link" href="css/lab.css">CSS code</a>
 	</li>
 </ul>
 </nav>
@@ -30,23 +31,23 @@
 	<div id="main">
 		<h1> Lab 19: CSS Frameworks</h1>
 	<div class="flex-container">
-	<div id="subject" class="minor-section">
+	<div class="row">
+		<div class="col-sm-3" style="background-color:lavender;">
 		<h2> Subject</h2>
-		<p> The purpose of the lab is to style our page using bootstrap.
-		</p>
+		<p> The purpose of the lab is to style our page using bootstrap.</p>
 	</div>
-	<div id="challenges" class="minor-section">
+		<div class="col-sm-3" style="background-color:lavender;">
 		<h2> Challenges</h2>
 		<p> Part of the challenge was to understand the different funtions and how
-		these change the look of the page. I struggled making the function "meta"
-		work in my page, I don't know if it was because of the size of my page or
-		if I was linking my index with my css corectly.</p>
+		these change the look of the page. I was very confused as to what I had to
+		download and that's the reason my submision is late. I manly use W3 schools
+		to guide myself because this process was very confusing and I just tried my
+		best.</p>
 	</div>
-	<div id="results" class="minor-section">
+	<div class="col-sm-3" style="background-color:lavender;">
 		<h2> Results</h2>
 		<p> Here are the results :)</p>
 	</div>
-			<aside><img src="img/empathy.jpg"></aside>
 		</div>
 	</div>
 </body>
