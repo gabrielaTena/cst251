@@ -1,7 +1,16 @@
 html, body{
-  background-color:#f7a063;
+  background-color:#edf0f9;
   font-size: 20px;
   font-family: 'Abril Fatface', cursive;
+  height: fit-content;
+}
+
+#main{
+  display: inline-block;
+  margin: 1%;
+  padding: 3%;
+  border: 10px solid #ebeba9;
+  border-radius: 25px 0 25px 0;
   height: fit-content;
 }
 
@@ -20,11 +29,16 @@ nav{
   position:sticky;
   top:0;
   background-color: #ffffff;
-  border: 10px solid #6d8166;
+  border: 10px solid #ebeba9;
   border-radius: 25px 0 25px 0;
 }
+
+img{
+  width: 200px;
+  height: fit-content;
+}
 nav a{
-  color: #red;
+  color: #ff5722;
 }
 
 .flex-container{
@@ -35,8 +49,8 @@ nav a{
 }
 
 .flex-container>div{
-  background-color: white;
-  border: solid #6d8166;
+  background-color: #cfe9fb;
+  border: solid #ebeba9;
   flex-wrap: wrap;
   width:300px;
   margin: 10px;
