@@ -1,0 +1,59 @@
+html, body{
+  background-color:;
+  font-size: ;
+  font-family: ;
+  height: fit-content;
+}
+
+#main{
+  display: inline-block;
+  margin: ;
+  padding:;
+  border: ;
+  border-radius: ;
+  height: fit-content;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  top:30%;
+}
+
+h2{
+  font-size: 30px;
+  color: #ff5722;
+}
+
+nav{
+  position:sticky;
+  top:0;
+  background-color: red;
+  border: 10;
+  border-radius: ;
+}
+
+nav a{
+  color: #ff5722;
+}
+
+
+.flex-container>div{
+  background-color: #cfe9fb;
+  border: solid #ebeba9;
+  flex-wrap: wrap;
+  width:300px;
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 800px){
+  .minor-section{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
