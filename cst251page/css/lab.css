@@ -1,59 +1,52 @@
-html, body{
-  background-color:;
-  font-size: ;
-  font-family: ;
-  height: fit-content;
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body {
+  font-family: 'MedievalSharp', serif;
+  background-image: url("../img/scroll.jpeg");
+  margin: 0px -1px;
 }
 
-#main{
-  display: inline-block;
-  margin: ;
-  padding:;
-  border: ;
-  border-radius: ;
-  height: fit-content;
+@media (min-width: 768px)
+.container{
+  max-width: 720px;
+}
+.container{
+  width: 100%;
+
 }
 
-h1{
-  font-size: 50px;
-  font-weight: bold;
-  top:30%;
+.navbar {
+  background-color: #de142c !important;
+}
+.nav-link {
+  color: white !important;
 }
 
+.page-width{
+  position:absolute;
+  padding: 20px;
+}
+h1 {
+ text-align: center;
+ font-size: 40px;
+}
 h2{
+  color:red;
   font-size: 30px;
-  color: #ff5722;
+}
+p {
+  font-size: 20px;
+  color: black;
 }
 
-nav{
-  position:sticky;
-  top:0;
-  background-color: red;
-  border: 10;
-  border-radius: ;
+.center{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
 }
-
-nav a{
-  color: #ff5722;
-}
-
-
-.flex-container>div{
-  background-color: #cfe9fb;
-  border: solid #ebeba9;
-  flex-wrap: wrap;
-  width:300px;
-  margin: 10px;
-  text-align: left;
-  padding: 10px;
-}
-
-
-
-@media screen and (max-width: 800px){
-  .minor-section{
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-  }
+.images{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
 }
